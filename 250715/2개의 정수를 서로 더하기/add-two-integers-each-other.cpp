@@ -6,6 +6,6 @@ int main() {
     cin >> a >> b;
     a = a + b;
     b = a + b;
-    cout << a << " " << b
+    cout << a << " " << b;
     return 0;
 }
