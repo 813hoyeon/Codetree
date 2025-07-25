@@ -12,7 +12,7 @@ int main() {
             cout << 30;
         }
     }
-    else {
+    else if (n % 2 != 0) {
         cout << 31;
     }
     return 0;
