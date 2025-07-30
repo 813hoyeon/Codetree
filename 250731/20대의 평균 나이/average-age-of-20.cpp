@@ -7,7 +7,7 @@ int main() {
     while (1) {
         int age;
         cin >> age;
-        if (age >= 30) {
+        if (age >= 30 || age <= 10) {
             cout << fixed;
             cout.precision(2);
             cout << (double)sum / cnt;
