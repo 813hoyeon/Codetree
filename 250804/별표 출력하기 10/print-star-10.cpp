@@ -5,7 +5,7 @@ int main() {
     int N;
     cin >> N;
     int cnt1 = 0;
-    int cnt2 = 6;
+    int cnt2 = N + 1;
     for (int i = 1; i <= 2 * N; i++) {
         if (i % 2 == 1) {
             int i = 1;
